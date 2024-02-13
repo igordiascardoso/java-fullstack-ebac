@@ -1,0 +1,2 @@
+Jsp é uma arquitetura antiga que cria páginas dinamicas em java, as páginas JSP misturam HTML e Java. São hospedadas na parte do servidor as aplicações web.
+Angular é um framework moderno para desenvolvimento web front-end, que cria páginas usando typescript e HTML. É executado no navegador do cliente.
