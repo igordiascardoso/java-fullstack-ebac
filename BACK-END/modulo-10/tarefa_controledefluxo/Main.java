@@ -23,12 +23,19 @@ public class Main {
         notaMedia = (a + b + c + d) / 4;
 
         if (notaMedia >= 7) {
-            System.out.println("Aprovado");
-        } else {
-            if (notaMedia <= 5) {
-                System.out.println("Reprovado");
-            }
 
-            }
+            System.out.println("Aprovado");
+
+        } else if (notaMedia >= 5) {
+
+            System.out.println("Recuperação");
+
+        } else {
+
+            System.out.println("Reprovado");
+
+        }
+
+
     }
 }
