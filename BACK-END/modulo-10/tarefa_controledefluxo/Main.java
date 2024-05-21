@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int a,b,c,d,notaMedia;
+        int a, b, c, d, notaMedia;
 
         Scanner read = new Scanner(System.in);
 
@@ -20,16 +20,15 @@ public class Main {
         System.out.println("Insira sua quarta nota:");
         d = read.nextInt();
 
-        notaMedia=(a+b+c+d)/4;
+        notaMedia = (a + b + c + d) / 4;
 
-        if (notaMedia >= 7 ){
+        if (notaMedia >= 7) {
             System.out.println("Aprovado");
         } else {
-            System.out.println("Reprovado");
-        }
+            if (notaMedia <= 5) {
+                System.out.println("Reprovado");
+            }
 
-
-
-     
+            }
     }
 }
