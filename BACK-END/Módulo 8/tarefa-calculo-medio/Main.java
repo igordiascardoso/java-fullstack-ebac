@@ -20,8 +20,8 @@ public class Main {
         System.out.println("Insira sua quarta nota:");
         d = read.nextInt();
 
-        notaMedia = (a+b+c+d)/4;
 
-        System.out.println("Sua média é: "+notaMedia);
+
+        System.out.println("Sua média é: "+Math(a,b,c,d));
     }
 }
