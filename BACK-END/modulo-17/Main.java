@@ -23,7 +23,7 @@ class Honda extends Carro{
 
     @Override
     public void mostramarcaeVelocidade(){
-        System.out.println("Marca: "+marca);
+        System.out.println("Marca : "+marca);
         System.out.println("Velocidade: " +velocidade);
         if (garantia == true){
             System.out.println("Carro possui garantira infinita.");
