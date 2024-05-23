@@ -1,0 +1,1 @@
+Injeção de dependência é um padrão de projeto que permite que os objetos recebam suas dependências de uma fonte externa, em vez de criarem-nas internamente. No Spring Framework, isso é feito automaticamente, facilitando a criação, a manutenção e o teste de aplicações.
