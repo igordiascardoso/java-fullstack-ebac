@@ -1,0 +1,3 @@
+Uma interface funcional é aquela que possui apenas um método abstrato. Em Java, por exemplo, uma interface funcional é marcada com a anotação @FunctionalInterface. Além disso, ela pode ter métodos default e static, mas apenas um método abstrato.
+
+Para identificar se uma interface é funcional, basta verificar se ela atende a esse critério. Se tiver apenas um método abstrato, é funcional. Se tiver mais de um, não é. Isso se baseia no conceito de que interfaces funcionais são aquelas que podem ser utilizadas como alvo para expressões lambda, que são funções anônimas tratadas como objetos. Essas expressões lambda são úteis em programação funcional para passar comportamentos como argumentos de métodos ou retorná-los de métodos, tornando o código mais conciso e legível.
