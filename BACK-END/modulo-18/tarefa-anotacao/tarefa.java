@@ -1,10 +1,22 @@
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface Tabela {
+    String value();
+}
+
+@Tabela("Pessoa")
 public class Pessoa {
     private String nome;
     private int idade;
 
-    public Pessoa(String nome,int idade){
-        this.nome=nome;
-        this.idade=idade;
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
     @Override
@@ -16,7 +28,7 @@ public class Pessoa {
     }
 
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("Igor",26);
+        Pessoa pessoa = new Pessoa("Igor", 26);
         pessoa.toString();
 
         System.out.println(pessoa.toString());
