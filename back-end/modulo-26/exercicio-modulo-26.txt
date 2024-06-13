@@ -1,0 +1,4 @@
+Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de forma eficiente e segura. Ele permite que dados sejam facilmente inseridos, consultados, atualizados e deletados.
+
+PostgreSQL é um exemplo de sistema de gerenciamento de banco de dados (SGBD) relacional e objeto-relacional. Ele serve para armazenar e organizar grandes volumes de dados, permitindo que os usuários executem consultas complexas para extrair informações úteis.
+
