@@ -1,0 +1,5 @@
+Redis é um banco de dados em memória, muito rápido, usado como cache e broker de mensagens, suportando diversas estruturas de dados como strings e listas.
+
+Apache Cassandra é um banco de dados NoSQL distribuído, ideal para grandes volumes de dados, oferecendo alta disponibilidade e escalabilidade, sem pontos únicos de falha, com uma linguagem de consulta parecida com SQL (CQL).
+
+Ambos são NoSQL.
