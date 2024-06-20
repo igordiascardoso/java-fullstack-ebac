@@ -1,0 +1,7 @@
+Microservices são uma forma moderna de desenvolver aplicações. Em vez de criar um programa grande que faz tudo, a ideia é dividir a aplicação em várias partes menores e independentes, chamadas de microservices. Cada microservice faz uma coisa específica e se comunica com os outros através de APIs.
+
+Benefícios
+
+Escalabilidade: Como cada serviço é independente, podemos escalar apenas o serviço que precisa de mais recursos.
+Flexibilidade: Podemos usar diferentes tecnologias para diferentes serviços, escolhendo a melhor ferramenta para cada tarefa.
+Resiliência: Se um microservice falha, os outros continuam funcionando, o que torna a aplicação mais resistente a falhas.
